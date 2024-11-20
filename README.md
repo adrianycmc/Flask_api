@@ -466,6 +466,7 @@ Para instalar todas as bibliotecas necessárias para o projeto, siga os passos a
    pip install flask-jwt-extended
    pip install flask-bcrypt
    pip install flask-marshmallow
+   pip install marshmallow-sqlalchemy
 ```
 
 💡 ***O que é o pip?***
