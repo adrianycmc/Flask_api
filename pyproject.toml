@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flask-api"
+version = "0.1.0"
+description = "A Flask API project"
+
+
+[project.dependencies]
+python = ">=3.9"
+Flask = "^2.0.1"
+Flask-SQLAlchemy = "^2.5.1"
+Flask-Migrate = "^3.1.0"
+Flask-JWT-Extended = "^4.3.1"
+SQLAlchemy = "^1.4.22"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.2.4",
+    "black>=21.7b0",
+    "flake8>=3.9.2"
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra -vvv"
+testpaths = ["tests"]
