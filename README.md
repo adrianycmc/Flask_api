@@ -3,7 +3,6 @@
 Este projeto consiste em uma API desenvolvida com o micro-framework Flask, que utiliza um banco de dados SQLite para gerenciar usuários e níveis de acesso. A API oferece funcionalidades completas de CRUD (Criar, Ler, Atualizar, Deletar) para a gestão de usuários, permitindo a criação de novos registros, a consulta e atualização de informações dos usuários cadastrados, e a exclusão de usuários. Cada usuário possui um nível de acesso atribuído, o que permite controlar o acesso a funcionalidades específicas da aplicação. A integração com Flask-SQLAlchemy, Flask-Migrate, Flask-JWT-Extended, Flask-Bcrypt e Flask-Marshmallow proporciona uma estrutura robusta para a implementação de segurança, serialização de dados e migrações de banco de dados.
 
 Abaixo estão descrições das principais bibliotecas utilizadas, comandos essenciais e links para a documentação oficial.
-# teste
 
 
 ## Bibliotecas Utilizadas
